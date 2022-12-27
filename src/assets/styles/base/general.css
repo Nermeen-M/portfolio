@@ -13,3 +13,7 @@
 .peach-text{
     color: var(--color-peach);
 }
+
+.light-green-text {
+    color: var(--color-light-green);
+}

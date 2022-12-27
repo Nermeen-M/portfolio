@@ -4,6 +4,8 @@
     --color-peach: #DEB992;
     --color-dark-gray: #393939;
     --color-white: #ffffff;
+    --color-peach-faded: rgba(222, 185, 146, 0.1);
+    --color-light-green-faded: rgba(27, 160, 152, 0.1);
 }
 
 /* Space */

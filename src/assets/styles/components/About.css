@@ -1,0 +1,25 @@
+#about{
+    background-color: var(--color-peach-faded);
+    padding: var(--space-large) var(--space-medium);
+    background-image: url('../../images/about-background.svg');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    background-size: cover;
+}
+
+#about h2{
+    margin-bottom: var(--space-medium);
+}
+
+#about p{
+    margin-bottom: var(--space-medium);
+}
+
+#about .image-container{
+    text-align: center;
+    margin-top: 48px;
+}
+
+#about .image-container img{
+    width: 220px;
+}
