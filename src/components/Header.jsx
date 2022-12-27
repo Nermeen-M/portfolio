@@ -4,7 +4,7 @@ export default function Header(){
     const scrollHandler = (scrollToId) => {
         var element = document.getElementById(scrollToId);
         window.scrollTo({
-        top: element.offsetTop,
+        top: element.offsetTop - 60,
         behavior: "smooth",
         });
     };

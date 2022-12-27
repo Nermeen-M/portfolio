@@ -3,6 +3,8 @@
 @import "./base/layout.css";
 @import "./base/typography.css";
 @import "./base/variables.css";
+@import "./base/general.css";
 
 /* Components */
 @import "./components/Header.css";
+@import "./components/Hero.css";
