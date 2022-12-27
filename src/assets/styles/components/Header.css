@@ -1,0 +1,26 @@
+header{
+    height: 60px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header .logo{
+    cursor: pointer;
+}
+
+header nav{
+    display: flex;
+    gap:var(--space-medium);
+    margin-right: var(--space-medium);
+}
+
+header nav button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: var(--color-white) ;
+}

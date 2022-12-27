@@ -1,0 +1,19 @@
+/* Colors */
+:root {
+    --color-light-green:#1BA098;
+    --color-peach: #DEB992;
+    --color-dark-gray: #393939;
+    --color-white: #ffffff;
+}
+
+/* Space */
+:root{
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-large: 32px;
+}
+
+/* Other */
+:root{
+    --border-radius: 10px;
+}
