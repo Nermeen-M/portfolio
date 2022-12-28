@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Eika Shopping List",
+    "thumbnail": "eika-shopping-list-thumbnail.jpg",
+    "isDone": true,
+    "screenshot": "",
+    "technologies": ["React", "CSS", "JavaScript", "Local storage", "Context API"],
+    "url": "https://eika-shopping-list-61c59.web.app",
+    "gitRepoUrl": "https://github.com/Nermeen-M/eika-shopping-list"
+  },
+  {
+    "id": 2,
+    "title": "Vegan Restaurant",
+    "thumbnail": "vegan-restaurant-thumbnail.jpg",
+    "isDone": false,
+    "screenshot": "",
+    "technologies": [],
+    "url": "",
+    "gitRepoUrl": ""
+  },
+  {
+    "id": 3,
+    "title": "Package Tracker",
+    "thumbnail": "package-tracker-thumbnail.jpg",
+    "isDone": false,
+    "screenshot": "",
+    "technologies": [],
+    "url": "",
+    "gitRepoUrl": ""
+  },
+  {
+    "id": 4,
+    "title": "To-do List",
+    "thumbnail": "todo-list-thumbnail.jpg",
+    "isDone": false,
+    "screenshot": "",
+    "technologies": [],
+    "url": "",
+    "gitRepoUrl": ""
+  },
+  {
+    "id": 5,
+    "title": "BBQ Restaurant",
+    "thumbnail": "bbq-restaurant-thumbnail.jpg",
+    "isDone": false,
+    "screenshot": "",
+    "technologies": [],
+    "url": "",
+    "gitRepoUrl": ""
+  },
+  {
+    "id": 6,
+    "title": "Learning Platform",
+    "thumbnail": "learning-platform-thumbnail.jpg",
+    "isDone": false,
+    "screenshot": "",
+    "technologies": [],
+    "url": "",
+    "gitRepoUrl": ""
+  },
+  {
+    "id": 7,
+    "title": "Netflix clone",
+    "thumbnail": "netflix-thumbnail.jpg",
+    "isDone": false,
+    "screenshot": "",
+    "technologies": [],
+    "url": "",
+    "gitRepoUrl": ""
+  }
+]
