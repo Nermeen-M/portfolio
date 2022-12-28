@@ -6,6 +6,7 @@
 @import "./base/general.css";
 
 /* Components */
+@import "./components/Modal.css";
 @import "./components/Header.css";
 @import "./components/Hero.css";
 @import "./components/About.css";

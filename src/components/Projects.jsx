@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import ProjectCard from "./ProjectCard";
 
-export default function Projects(){
+export default function Projects(props){
     const[projectsList, setProjectsList]= useState([]);
 
     useEffect(() => {
@@ -16,7 +16,6 @@ export default function Projects(){
             });
     }, []);
 
-
     return (<section id="projects">
         <h2>Projects</h2>
         <div className="description">
@@ -26,8 +25,8 @@ export default function Projects(){
             {projectsList.map((project) => (
           <ProjectCard
             key={project.id}
-            title={project.title}
-            thumbnail={project.thumbnail}
+            project={project}
+            setModal={props.setModal}
           />
         ))}
         </div>
