@@ -1,0 +1,32 @@
+#tech{
+    background-color: var(--color-peach-faded);
+    padding: var(--space-large) var(--space-medium);
+}
+
+#tech h2{
+    margin-bottom: var(--space-medium);
+}
+
+#tech p{
+    margin-bottom: var(--space-large);
+    color: var(--color-dark-gray);
+}
+
+#tech .tech-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tech .tech-list .tech-item{
+    display: flex;
+    flex-direction: column;
+    width: 105px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--space-large);
+}
+
+#tech .tech-list .tech-item img{
+    height: 55px;
+}

@@ -13,6 +13,7 @@
 
 #about p{
     margin-bottom: var(--space-medium);
+    color: var(--color-dark-gray);
 }
 
 #about .image-container{

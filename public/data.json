@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Projects":[{
     "id": 1,
     "title": "Eika Shopping List",
     "thumbnail": "eika-shopping-list-thumbnail.jpg",
@@ -68,5 +68,59 @@
     "technologies": [],
     "url": "",
     "gitRepoUrl": ""
-  }
-]
+  }],
+
+
+  "Technologies":[
+    {
+      "id": 101,
+      "name": "React",
+      "logo": "react.svg"
+    },
+    {
+      "id": 102,
+      "name": "JavaScript",
+      "logo": "js.svg"
+    },
+    {
+      "id": 103,
+      "name": "CSS",
+      "logo": "css.svg"
+    },
+    {
+      "id": 104,
+      "name": "Figma",
+      "logo": "figma.svg"
+    },
+    {
+      "id": 105,
+      "name": "HTML",
+      "logo": "html.svg"
+    },
+    {
+      "id": 106,
+      "name": "GitHub",
+      "logo": "github.svg"
+    },
+    {
+      "id": 107,
+      "name": "Firebase",
+      "logo": "firebase.svg"
+    },
+    {
+      "id": 108,
+      "name": "SASS",
+      "logo": "sass.svg"
+    },
+    {
+      "id": 109,
+      "name": "Bootstrap",
+      "logo": "bootstrap.svg"
+    },
+    {
+      "id": 110,
+      "name": "TypeScript",
+      "logo": "typescript.svg"
+    }
+  ]
+}
