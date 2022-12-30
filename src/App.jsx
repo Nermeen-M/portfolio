@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Footer from "./components/Footer";
 
 import "./assets/styles/style.css";
 
@@ -32,7 +33,7 @@ export default function App() {
       <About />
       <Projects projectsList={projectsList} setModal={setModal} />
       <Technologies techList={techList} />
-
+      <Footer />
       <Modal modalState={[modal, setModal]} />
     </div>
   );
