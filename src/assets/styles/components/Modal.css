@@ -4,7 +4,6 @@
     left:50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    padding: 50px;
     z-index: 1000;
 }
 
@@ -16,4 +15,15 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.7);
     z-index: 1000;
+}
+
+#modal .window .modal-close-button{
+    position: absolute;
+    right: var(--space-small);
+    top: var(--space-small);
+    cursor: pointer;
+}
+
+#modal .window .modal-close-button img{
+    height: 30px;
 }

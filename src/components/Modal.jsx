@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 
+import CloseButton from "../assets/images/close-btn.svg";
+
 export default function Modal({modalState}){
     const[modal, setModal] = modalState;
 
@@ -12,7 +14,9 @@ export default function Modal({modalState}){
     <div id="modal">
         <div className="backdrop" onClick={() => setModal(null)}></div>
         <div className="window">
-            <button onClick={() => setModal(null)}>Close</button>
+            <button onClick={() => setModal(null)} className="modal-close-button">
+                <img src={CloseButton} alt="Close"/>
+            </button>
             {modal}
         </div>
     </div>,

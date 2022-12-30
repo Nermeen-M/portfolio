@@ -1,0 +1,67 @@
+#projects{
+    padding: var(--space-x-large) var(--space-medium);
+    background: url('../../images/projects-background.jpg');
+    background-size: cover;
+}
+
+#projects h2{
+    margin-bottom: var(--space-medium);
+    color: var(--color-peach);
+}
+
+#projects p{
+    margin-bottom: var(--space-large);
+    color: var(--color-white);
+}
+
+#projects .projects-list{
+    display: flex;
+    gap: var(--space-large);
+    flex-wrap: wrap;
+}
+
+#projects .projects-list .project-card{
+    width: 150px;
+    cursor: pointer;
+}
+
+#projects .projects-list .project-card img{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+#projects .projects-list .project-card h3{
+    color: var(--color-peach);
+}
+
+.project-details{
+    width: 325px; 
+}
+.project-details img{
+    height: 160px;
+    object-fit: cover;
+}
+
+.project-details .details{
+    padding: var(--space-small);
+}
+
+.project-details .details h2{
+    color: var(--color-light-green);
+    margin-bottom: var(--space-small);
+}
+.project-details .details p{
+    color: var(--color-dark-gray);
+    margin-bottom: var(--space-medium);
+}
+.project-details .details .pills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-small);
+    margin-bottom: var(--space-large);
+}
+.project-details .details .primary-button, .project-details .details .secondary-button{
+    width: 100%;
+}

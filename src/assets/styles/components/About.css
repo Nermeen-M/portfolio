@@ -1,6 +1,6 @@
 #about{
     background-color: var(--color-peach-faded);
-    padding: var(--space-large) var(--space-medium);
+    padding: var(--space-x-large) var(--space-medium);
     background-image: url('../../images/about-background.svg');
     background-repeat: no-repeat;
     background-position: center 100px;
@@ -9,6 +9,7 @@
 
 #about h2{
     margin-bottom: var(--space-medium);
+    color: var(--color-light-green);
 }
 
 #about p{

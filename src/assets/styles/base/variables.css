@@ -12,7 +12,8 @@
 :root{
     --space-small: 8px;
     --space-medium: 16px;
-    --space-large: 32px;
+    --space-large: 24px;
+    --space-x-large: 32px;
 }
 
 /* Other */

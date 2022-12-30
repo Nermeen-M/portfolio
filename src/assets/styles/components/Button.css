@@ -1,0 +1,26 @@
+.primary-button, .secondary-button{
+    padding: var(--space-small) var(--space-large);
+    border-radius: var(--border-radius);
+    margin:var(--space-small) 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.primary-button{
+    background-color: var(--color-light-green);
+    color: var(--color-white);
+}
+
+.primary-button:hover{
+    background-color: #048b83;
+}
+
+.secondary-button{
+    background: transparent;
+    color: var(--color-light-green);
+    border: 1px solid var(--color-light-green);
+}
+
+.secondary-button:hover{
+    background-color: var(--color-light-green-faded);
+}
