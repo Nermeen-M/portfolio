@@ -9,7 +9,7 @@ export default function Header(){
         });
     };
 
-    return(<header>
+    return(<header className="animate-pop-in">
         <img src={logo} alt="NI initials for Nermeen Ibrahim" width="70" height="60" className="logo" onClick={() => scrollHandler("hero")} />
         <nav>
             <button onClick={() => scrollHandler("about")}>About</button>

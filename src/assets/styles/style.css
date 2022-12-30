@@ -4,6 +4,7 @@
 @import "./base/typography.css";
 @import "./base/variables.css";
 @import "./base/general.css";
+@import "./base/animation.css";
 
 /* Components */
 @import "./components/Modal.css";

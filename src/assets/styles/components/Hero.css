@@ -17,6 +17,7 @@
 
 #hero .overlay .text {
     width: 310px;
+    animation-delay: 1s;
 }
 
 #hero .overlay .text h1{
