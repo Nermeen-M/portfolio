@@ -32,7 +32,7 @@ export default function App() {
       <Hero />
       <About />
       <Projects projectsList={projectsList} setModal={setModal} />
-      <Technologies techList={techList} />
+      <Technologies techList={techList}  setModal={setModal} />
       <Footer />
       <Modal modalState={[modal, setModal]} />
     </div>

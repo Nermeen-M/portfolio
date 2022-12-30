@@ -12,6 +12,7 @@ export default function Technologies(props){
             <TechnologyItem
               key={techItem.id}
               techItem={techItem}
+              setModal={props.setModal}
             />
           ))}
           </div>

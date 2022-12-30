@@ -36,6 +36,17 @@
     height: 55px;
 }
 
+.tech-item-details{
+    padding: var(--space-x-large);
+    width: 280px;
+}
+
+.tech-item-details h2{
+    color: var(--color-peach);
+    text-align: center;
+    margin-bottom: var(--space-x-large);
+}
+
 @media screen and (min-width: 1200px){
     #tech{
         padding: 100px 200px;
@@ -50,6 +61,10 @@
     #tech .content .tech-list{
         width: 50%;
         gap: 40px;
+    }
+
+    .tech-item-details{
+        width:450px;
     }
 }
 

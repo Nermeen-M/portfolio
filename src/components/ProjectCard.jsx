@@ -1,4 +1,5 @@
 import ProjectDetails from "./ProjectDetails";
+
 export default function ProjectCard({project, setModal}){
     return(
         <div className={!project.isDone ? "project-card disabled" : "project-card"} onClick={() => !project.isDone ? setModal(null) : setModal(<ProjectDetails project={project} />)}>

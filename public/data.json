@@ -82,52 +82,62 @@
     {
       "id": 101,
       "name": "React",
-      "logo": "react.svg"
+      "logo": "react.svg",
+      "description":"Projects done by me using React so far: Eika shopping list and Portfolio"
     },
     {
       "id": 102,
       "name": "JavaScript",
-      "logo": "js.svg"
+      "logo": "js.svg",
+      "description":"I used JavaScript to create powerful client-side experiences, used JS along with JQuery in plugins."
     },
     {
       "id": 103,
       "name": "CSS",
-      "logo": "css.svg"
+      "logo": "css.svg",
+      "description":"I created alot of websites using CSS, I used it to build different layouts, style elements and create animations.  "
     },
     {
       "id": 104,
       "name": "Figma",
-      "logo": "figma.svg"
+      "logo": "figma.svg",
+      "description":"This website (Portfolio) is the first one for me using Figma to create a design from scratch."
     },
     {
       "id": 105,
       "name": "HTML",
-      "logo": "html.svg"
+      "logo": "html.svg",
+      "description":"I have extensive experience with HTML, I used HTML to build the structure of web content in every website."
     },
     {
       "id": 106,
       "name": "GitHub",
-      "logo": "github.svg"
+      "logo": "github.svg",
+      "description":"GitHub helped me to work on a single platform, to collaborate and share ideas."
     },
     {
       "id": 107,
       "name": "Firebase",
-      "logo": "firebase.svg"
+      "logo": "firebase.svg",
+      "description":"I used Firebase to deploy Eika Shopping list on web."
     },
     {
       "id": 108,
       "name": "SASS",
-      "logo": "sass.svg"
+      "logo": "sass.svg",
+      "description":"Sass helped me to optimize large stylsheets and keep things organised."
     },
     {
       "id": 109,
       "name": "Bootstrap",
-      "logo": "bootstrap.svg"
+      "logo": "bootstrap.svg",
+      "description":"I used to create responsive websites using Bootstrap, it provides a collection of syntax for template designs. "
     },
     {
       "id": 110,
       "name": "TypeScript",
-      "logo": "typescript.svg"
+      "logo": "typescript.svg",
+      "description":"TypeScript is one of the technologies I'm learning at Novare."
     }
   ]
 }
