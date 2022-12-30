@@ -6,3 +6,10 @@
     color: var(--color-dark-gray);
     border-radius: 20px;
 }
+
+@media screen and (min-width: 1200px){
+    .pill{
+        height: 40px;
+        padding: var(--space-small) var(--space-medium);
+    }
+}

@@ -28,3 +28,10 @@
 #modal .window .modal-close-button img{
     height: 30px;
 }
+
+@media screen and (min-width: 1200px){
+    #modal .window .modal-close-button{
+        right: var(--space-medium);
+        top: var(--space-medium);
+    }
+}

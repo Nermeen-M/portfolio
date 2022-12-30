@@ -29,3 +29,17 @@
 #hero .overlay .text h1 .peach-text{
     font-size: 34px;
 }
+
+@media screen and (min-width: 1200px){
+    #hero .overlay .text {
+        width: 530px;
+    }  
+
+    #hero .overlay .text h1{
+        font-size: 42px;
+    }
+
+    #hero .overlay .text h1 .peach-text{
+        font-size: 50px;
+    }
+}

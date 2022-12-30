@@ -7,8 +7,13 @@
     margin-bottom: var(--space-medium);
 }
 
-#tech p{
-    margin-bottom: var(--space-large);
+#tech .content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-large);
+}
+
+#tech .content .description p{
     color: var(--color-dark-gray);
 }
 
@@ -30,3 +35,21 @@
 #tech .tech-list .tech-item img{
     height: 55px;
 }
+
+@media screen and (min-width: 1200px){
+    #tech{
+        padding: 100px 200px;
+    }
+    #tech .content{
+        flex-direction: row;
+        gap: 10%;
+    }
+    #tech .content .description{
+        width: 30%;
+    }
+    #tech .content .tech-list{
+        width: 50%;
+        gap: 40px;
+    }
+}
+

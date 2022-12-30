@@ -24,3 +24,10 @@
 .secondary-button:hover{
     background-color: var(--color-light-green-faded);
 }
+
+@media screen and (min-width: 1200px){
+    .primary-button, .secondary-button{
+        padding: 12px var(--space-large);
+        margin:var(--space-small) 0;
+    }
+}

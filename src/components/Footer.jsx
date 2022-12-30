@@ -12,10 +12,14 @@ export default function(){
     return<section id="contact">
         <div className="contact-list">
             <h2>Contact me</h2>
-            <p className="description">Here are my contact informtion if you are interested in starting a collaboration.</p>
-            <ContactItem label={"nermeen.mamdouh.nm@gmail.com"} imgName={"mail.svg"} />
-            <ContactItem label={"+46 700233994"} imgName={"phone.svg"} />
-            <ContactItem label={"Stockholm, Sweden"} imgName={"location.svg"} />
+            <div className="content">
+                <p className="description">Here are my contact informtion if you are interested in starting a collaboration.</p>
+                <div className="contact-items-list">
+                    <ContactItem label={"nermeen.mamdouh.nm@gmail.com"} imgName={"mail.svg"} />
+                    <ContactItem label={"+46 700233994"} imgName={"phone.svg"} />
+                    <ContactItem label={"Stockholm, Sweden"} imgName={"location.svg"} />
+                </div>
+            </div>
         </div>
         <div className="networking">
             <div className="social-media">
