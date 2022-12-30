@@ -20,9 +20,11 @@
     flex-wrap: wrap;
 }
 
+/* Project card */
 #projects .projects-list .project-card{
     width: 150px;
     cursor: pointer;
+    position: relative;
 }
 
 #projects .projects-list .project-card img{
@@ -36,12 +38,37 @@
     color: var(--color-peach);
 }
 
+.project-card.disabled{
+    cursor: default !important;
+}
+
+.project-card.disabled::after {
+    content: 'Coming Soon';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    color: var(--color-white);
+    border-radius: var(--border-radius);
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: var(--space-medium);
+}
+
+/* Project details modal */
 .project-details{
     width: 325px; 
 }
 .project-details img{
     height: 160px;
     object-fit: cover;
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
 }
 
 .project-details .details{
