@@ -11,20 +11,22 @@ import Footer from "./components/Footer";
 import "./assets/styles/style.css";
 
 export default function App() {
-  const[modal, setModal]= useState(null);
-  const[projectsList, setProjectsList]= useState([]);
-  const[techList, setTechList]= useState([]);
+  const [modal, setModal] = useState(null);
+  const [projectsList, setProjectsList] = useState([]);
+  const [techList, setTechList] = useState([]);
 
-    useEffect(() => {
-        fetch(
-            'data.json'
-            ).then(response => {
-                return response.json();
-            }).then(data => {
-                setProjectsList(data.Projects);
-                setTechList(data.Technologies);
-            });
-    }, []);
+  // No need to use useEffect -1, you can load jsons normally (as shown today)
+  // neither the useState are needed, for the same reason.
+  useEffect(() => {
+    fetch("data.json")
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setProjectsList(data.Projects);
+        setTechList(data.Technologies);
+      });
+  }, []);
 
   return (
     <div className="App">
@@ -32,7 +34,7 @@ export default function App() {
       <Hero />
       <About />
       <Projects projectsList={projectsList} setModal={setModal} />
-      <Technologies techList={techList}  setModal={setModal} />
+      <Technologies techList={techList} setModal={setModal} />
       <Footer />
       <Modal modalState={[modal, setModal]} />
     </div>
