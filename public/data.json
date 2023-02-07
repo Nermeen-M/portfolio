@@ -1,143 +1,165 @@
 {
-  "Projects":[{
-    "id": 1,
-    "title": "Eika Shopping List",
-    "thumbnail": "eika-shopping-list-thumbnail.jpg",
-    "isDone": true,
-    "screenshot": "eika-shopping-list-screenshot.jpg",
-    "description":"This project is a To-do list where users can add items to list and mark items as completed.",
-    "technologies": ["React", "CSS", "JavaScript", "Local storage", "Context API"],
-    "url": "https://eika-shopping-list-61c59.web.app",
-    "gitRepoUrl": "https://github.com/Nermeen-M/eika-shopping-list"
-  },
-  {
-    "id": 2,
-    "title": "Vegan Restaurant",
-    "thumbnail": "vegan-restaurant-thumbnail.jpg",
-    "isDone": false,
-    "screenshot": "",
-    "description": "",
-    "technologies": [],
-    "url": "",
-    "gitRepoUrl": ""
-  },
-  {
-    "id": 3,
-    "title": "Package Tracker",
-    "thumbnail": "package-tracker-thumbnail.jpg",
-    "isDone": false,
-    "screenshot": "",
-    "description": "",
-    "technologies": [],
-    "url": "",
-    "gitRepoUrl": ""
-  },
-  {
-    "id": 4,
-    "title": "To-do List",
-    "thumbnail": "todo-list-thumbnail.jpg",
-    "isDone": false,
-    "screenshot": "",
-    "description": "",
-    "technologies": [],
-    "url": "",
-    "gitRepoUrl": ""
-  },
-  {
-    "id": 5,
-    "title": "BBQ Restaurant",
-    "thumbnail": "bbq-restaurant-thumbnail.jpg",
-    "isDone": false,
-    "screenshot": "",
-    "description": "",
-    "technologies": [],
-    "url": "",
-    "gitRepoUrl": ""
-  },
-  {
-    "id": 6,
-    "title": "Learning Platform",
-    "thumbnail": "learning-platform-thumbnail.jpg",
-    "isDone": false,
-    "screenshot": "",
-    "description": "",
-    "technologies": [],
-    "url": "",
-    "gitRepoUrl": ""
-  },
-  {
-    "id": 7,
-    "title": "Netflix clone",
-    "thumbnail": "netflix-thumbnail.jpg",
-    "isDone": false,
-    "screenshot": "",
-    "description": "",
-    "technologies": [],
-    "url": "",
-    "gitRepoUrl": ""
-  }],
+  "Projects": [
+    {
+      "id": 1,
+      "title": "Eika Shopping List",
+      "thumbnail": "eika-shopping-list-thumbnail.jpg",
+      "isDone": true,
+      "screenshot": "eika-shopping-list-screenshot.jpg",
+      "description": "This project is a To-do list where users can add items to list and mark items as completed.",
+      "technologies": [
+        "React",
+        "CSS",
+        "JavaScript",
+        "Local storage",
+        "Context API"
+      ],
+      "url": "https://eika-shopping-list-61c59.web.app",
+      "gitRepoUrl": "https://github.com/Nermeen-M/eika-shopping-list"
+    },
+    {
+      "id": 2,
+      "title": "Vegan Restaurant",
+      "thumbnail": "vegan-restaurant-thumbnail.jpg",
+      "isDone": true,
+      "screenshot": "vegan-restaurant-screenshot.jpg",
+      "description": "Vegan restaurant website to display dishes, desserts and drinks of the restaurant, it also has a contact page with a form to book a table in the restaurant.",
+      "technologies": [
+        "React",
+        "CSS",
+        "JavaScript",
+        "Figma",
+        "GitHub",
+        "Firebase"
+      ],
+      "url": "https://vegan-restaurant-457cf.web.app/",
+      "gitRepoUrl": "https://github.com/Nermeen-M/vegan-restaurant"
+    },
+    {
+      "id": 3,
+      "title": "Package Tracker",
+      "thumbnail": "package-tracker-thumbnail.jpg",
+      "isDone": true,
+      "screenshot": "package-tracker-screenshot.jpg",
+      "description": "Application to list user's packages and the details of each package like status, sender, ETA and location on map.",
+      "technologies": [
+        "React",
+        "CSS",
+        "JavaScript",
+        "Figma",
+        "Context API",
+        "GitHub",
+        "Firebase"
+      ],
+      "url": "https://instapacket-20ca0.firebaseapp.com/",
+      "gitRepoUrl": "https://github.com/Nermeen-M/package-tracker"
+    },
+    {
+      "id": 4,
+      "title": "To-do List",
+      "thumbnail": "todo-list-thumbnail.jpg",
+      "isDone": false,
+      "screenshot": "",
+      "description": "",
+      "technologies": [],
+      "url": "",
+      "gitRepoUrl": ""
+    },
+    {
+      "id": 5,
+      "title": "BBQ Restaurant",
+      "thumbnail": "bbq-restaurant-thumbnail.jpg",
+      "isDone": false,
+      "screenshot": "",
+      "description": "",
+      "technologies": [],
+      "url": "",
+      "gitRepoUrl": ""
+    },
+    {
+      "id": 6,
+      "title": "Learning Platform",
+      "thumbnail": "learning-platform-thumbnail.jpg",
+      "isDone": false,
+      "screenshot": "",
+      "description": "",
+      "technologies": [],
+      "url": "",
+      "gitRepoUrl": ""
+    },
+    {
+      "id": 7,
+      "title": "Netflix clone",
+      "thumbnail": "netflix-thumbnail.jpg",
+      "isDone": false,
+      "screenshot": "",
+      "description": "",
+      "technologies": [],
+      "url": "",
+      "gitRepoUrl": ""
+    }
+  ],
 
-
-  "Technologies":[
+  "Technologies": [
     {
       "id": 101,
       "name": "React",
       "logo": "react.svg",
-      "description":"Projects done by me using React so far: Eika shopping list and Portfolio"
+      "description": "Projects done by me using React so far: Eika shopping list and Portfolio"
     },
     {
       "id": 102,
       "name": "JavaScript",
       "logo": "js.svg",
-      "description":"I used JavaScript to create powerful client-side experiences, used JS along with JQuery in plugins."
+      "description": "I used JavaScript to create powerful client-side experiences, used JS along with JQuery in plugins."
     },
     {
       "id": 103,
       "name": "CSS",
       "logo": "css.svg",
-      "description":"I created alot of websites using CSS, I used it to build different layouts, style elements and create animations.  "
+      "description": "I created alot of websites using CSS, I used it to build different layouts, style elements and create animations.  "
     },
     {
       "id": 104,
       "name": "Figma",
       "logo": "figma.svg",
-      "description":"This website (Portfolio) is the first one for me using Figma to create a design from scratch."
+      "description": "This website (Portfolio) is the first one for me using Figma to create a design from scratch."
     },
     {
       "id": 105,
       "name": "HTML",
       "logo": "html.svg",
-      "description":"I have extensive experience with HTML, I used HTML to build the structure of web content in every website."
+      "description": "I have extensive experience with HTML, I used HTML to build the structure of web content in every website."
     },
     {
       "id": 106,
       "name": "GitHub",
       "logo": "github.svg",
-      "description":"GitHub helped me to work on a single platform, to collaborate and share ideas."
+      "description": "GitHub helped me to work on a single platform, to collaborate and share ideas."
     },
     {
       "id": 107,
       "name": "Firebase",
       "logo": "firebase.svg",
-      "description":"I used Firebase to deploy Eika Shopping list on web."
+      "description": "I used Firebase to deploy Eika Shopping list on web."
     },
     {
       "id": 108,
       "name": "SASS",
       "logo": "sass.svg",
-      "description":"Sass helped me to optimize large stylsheets and keep things organised."
+      "description": "Sass helped me to optimize large stylsheets and keep things organised."
     },
     {
       "id": 109,
       "name": "Bootstrap",
       "logo": "bootstrap.svg",
-      "description":"I used to create responsive websites using Bootstrap, it provides a collection of syntax for template designs. "
+      "description": "I used to create responsive websites using Bootstrap, it provides a collection of syntax for template designs. "
     },
     {
       "id": 110,
       "name": "TypeScript",
       "logo": "typescript.svg",
-      "description":"TypeScript is one of the technologies I'm learning at Novare."
+      "description": "TypeScript is one of the technologies I'm learning at Novare."
     }
   ]
 }
