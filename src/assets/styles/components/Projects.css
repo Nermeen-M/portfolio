@@ -105,7 +105,7 @@
 
 @media screen and (min-width: 1200px) {
   #projects {
-    padding: 100px 200px;
+    padding: 100px 0;
   }
 
   #projects h2 {
@@ -118,11 +118,11 @@
   }
 
   #projects .description {
-    width: 30%;
+    width: 25%;
   }
 
   #projects .projects-list {
-    width: 70%;
+    width: 75%;
     justify-content: flex-start;
   }
 

@@ -1,86 +1,84 @@
 /* Contact list */
-#contact .contact-list{
-    background:var(--color-dark-gray);
-    padding: var(--space-large) var(--space-medium);
+#contact .contact-list {
+  background: var(--color-dark-gray);
+  padding: var(--space-large) var(--space-medium);
 }
-#contact .contact-list .content{
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-medium);
+#contact .contact-list .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-medium);
 }
-#contact .contact-list h2{
-    color: var(--color-peach);
-    margin-bottom: var(--space-medium);
+#contact .contact-list h2 {
+  color: var(--color-peach);
+  margin-bottom: var(--space-medium);
 }
-#contact .contact-list .description{
-    color: var(--color-white);
+#contact .contact-list .description {
+  color: var(--color-white);
 }
 
 /* Contact item */
-#contact .contact-list .contact-item{
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--space-medium);
-    color: var(--color-white);
-    gap: var(--space-medium);
+#contact .contact-list .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-medium);
+  color: var(--color-white);
+  gap: var(--space-medium);
 }
-#contact .contact-list .contact-item .icon{
-    display: flex;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--color-light-green);
-    justify-content: center;
-    align-items: center;
+#contact .contact-list .contact-item .icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-light-green);
+  justify-content: center;
+  align-items: center;
 }
 
 /* Networking */
-#contact .networking{
-    background: var(--color-light-green);
-    color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: var(--space-x-large);
+#contact .networking {
+  background: var(--color-light-green);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-x-large);
 }
 
-#contact .networking .social-media{
-    display: flex;
-    gap: var(--space-medium);
-    margin-bottom: var(--space-small);
+#contact .networking .social-media {
+  display: flex;
+  gap: var(--space-medium);
+  margin-bottom: var(--space-small);
 }
-#contact .networking .social-media button{
-    cursor: pointer;
-}
-
-#contact .networking .copyright{
-    font-size: 12px;
+#contact .networking .social-media button {
+  cursor: pointer;
 }
 
-@media screen and (min-width: 1200px){
-    #contact .contact-list{
-        padding: 100px 200px;
-    }
-    #contact .contact-list .content{
-        flex-direction: row;
-        gap: 10%;
-    }
-    #contact .contact-list .description{
-        width: 50%;
-    }
-    #contact .contact-list .contact-items-list{
-        width: 50%;
-    }
-
-
-    /* Networking */
-    #contact .networking{
-        padding: 50px;
-    }
-
-    #contact .networking .social-media{
-        gap: var(--space-x-large);
-        margin-bottom: var(--space-medium);
-    }
+#contact .networking .copyright {
+  font-size: 12px;
 }
 
+@media screen and (min-width: 1200px) {
+  #contact .contact-list {
+    padding: 100px 0;
+  }
+  #contact .contact-list .content {
+    flex-direction: row;
+    gap: 10%;
+  }
+  #contact .contact-list .description {
+    width: 50%;
+  }
+  #contact .contact-list .contact-items-list {
+    width: 50%;
+  }
+
+  /* Networking */
+  #contact .networking {
+    padding: 50px;
+  }
+
+  #contact .networking .social-media {
+    gap: var(--space-x-large);
+    margin-bottom: var(--space-medium);
+  }
+}

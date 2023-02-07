@@ -1,70 +1,74 @@
-#tech{
-    background-color: var(--color-peach-faded);
-    padding: var(--space-large) var(--space-medium);
+#tech {
+  background-color: var(--color-peach-faded);
+  padding: var(--space-large) var(--space-medium);
 }
 
-#tech h2{
-    margin-bottom: var(--space-medium);
+#tech h2 {
+  margin-bottom: var(--space-medium);
 }
 
-#tech .content{
-    display: flex;
-    flex-direction: column;
+#tech .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-large);
+}
+
+#tech .content .description p {
+  color: var(--color-dark-gray);
+}
+
+#tech .tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-small);
+}
+
+#tech .tech-list .tech-item {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--space-large);
+}
+
+#tech .tech-list .tech-item img {
+  height: 55px;
+}
+#tech .tech-list .tech-item h3 {
+  font-size: 16px;
+}
+
+.tech-item-details {
+  padding: var(--space-x-large);
+  width: 280px;
+}
+
+.tech-item-details h2 {
+  color: var(--color-peach);
+  text-align: center;
+  margin-bottom: var(--space-x-large);
+}
+
+@media screen and (min-width: 1200px) {
+  #tech {
+    padding: 100px 0;
+  }
+  #tech .content {
+    flex-direction: row;
     gap: var(--space-large);
+  }
+  #tech .content .description {
+    width: 25%;
+  }
+  #tech .content .tech-list {
+    width: 75%;
+    gap: 40px;
+  }
+
+  .tech-item-details {
+    width: 450px;
+  }
 }
-
-#tech .content .description p{
-    color: var(--color-dark-gray);
-}
-
-#tech .tech-list{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#tech .tech-list .tech-item{
-    display: flex;
-    flex-direction: column;
-    width: 105px;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: var(--space-large);
-}
-
-#tech .tech-list .tech-item img{
-    height: 55px;
-}
-
-.tech-item-details{
-    padding: var(--space-x-large);
-    width: 280px;
-}
-
-.tech-item-details h2{
-    color: var(--color-peach);
-    text-align: center;
-    margin-bottom: var(--space-x-large);
-}
-
-@media screen and (min-width: 1200px){
-    #tech{
-        padding: 100px 200px;
-    }
-    #tech .content{
-        flex-direction: row;
-        gap: 10%;
-    }
-    #tech .content .description{
-        width: 30%;
-    }
-    #tech .content .tech-list{
-        width: 50%;
-        gap: 40px;
-    }
-
-    .tech-item-details{
-        width:450px;
-    }
-}
-
