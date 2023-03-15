@@ -58,23 +58,38 @@
       "id": 4,
       "title": "To-do List",
       "thumbnail": "todo-list-thumbnail.jpg",
-      "isDone": false,
-      "screenshot": "",
-      "description": "",
-      "technologies": [],
-      "url": "",
-      "gitRepoUrl": ""
+      "isDone": true,
+      "screenshot": "todo-list-screenshot.jpg",
+      "description": "The same as Eika shopping list but this time using unit testing.",
+      "technologies": [
+        "React",
+        "SASS",
+        "JavaScript",
+        "Figma",
+        "GitHub",
+        "Firebase"
+      ],
+      "url": "https://testing-todo-b6567.web.app/",
+      "gitRepoUrl": "https://github.com/Nermeen-M/testing-todo"
     },
     {
       "id": 5,
       "title": "BBQ Restaurant",
       "thumbnail": "bbq-restaurant-thumbnail.jpg",
-      "isDone": false,
-      "screenshot": "",
-      "description": "",
-      "technologies": [],
-      "url": "",
-      "gitRepoUrl": ""
+      "isDone": true,
+      "screenshot": "bbq-restaurant-screenshot.jpg",
+      "description": "A BBQ restaurant with admin page where the owner can manage menu categories and menu items.",
+      "technologies": [
+        "React",
+        "SASS",
+        "JavaScript",
+        "Figma",
+        "GitHub",
+        "Context API",
+        "Firebase"
+      ],
+      "url": "https://fire-grill-bbq-restaurant.web.app/",
+      "gitRepoUrl": "https://github.com/Nermeen-M/bbq-restaurant"
     },
     {
       "id": 6,
