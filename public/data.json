@@ -95,12 +95,20 @@
       "id": 6,
       "title": "Learning Platform",
       "thumbnail": "learning-platform-thumbnail.jpg",
-      "isDone": false,
-      "screenshot": "",
-      "description": "",
-      "technologies": [],
-      "url": "",
-      "gitRepoUrl": ""
+      "isDone": true,
+      "screenshot": "learning-platform-screenshot.jpg",
+      "description": "Learning managemnt system for teaching fun courses to kids, where the teacher and students can login to the system and browse courses. Teachers can manage system by adding, editing and deleting courses and study materials. ",
+      "technologies": [
+        "React",
+        "SASS",
+        "Figma",
+        "GitHub",
+        "Context API",
+        "Cloud storage",
+        "Firebase authentication"
+      ],
+      "url": "https://bright-brain-lms.web.app/",
+      "gitRepoUrl": "https://github.com/Nermeen-M/lms"
     },
     {
       "id": 7,
