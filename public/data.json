@@ -114,12 +114,20 @@
       "id": 7,
       "title": "Netflix clone",
       "thumbnail": "netflix-thumbnail.jpg",
-      "isDone": false,
-      "screenshot": "",
-      "description": "",
-      "technologies": [],
-      "url": "",
-      "gitRepoUrl": ""
+      "isDone": true,
+      "screenshot": "netflix-screenshot.jpg",
+      "description": "Netflix clone, where there are 2 user roles, customer who can consume content, and content manager who can add, edit and delete content.",
+      "technologies": [
+        "React",
+        "SASS",
+        "Figma",
+        "GitHub",
+        "Context API",
+        "Cloud storage",
+        "Firebase authentication"
+      ],
+      "url": "https://nermeen-netflix-clone.web.app/",
+      "gitRepoUrl": "https://github.com/Nermeen-M/netflix-clone"
     }
   ],
 
